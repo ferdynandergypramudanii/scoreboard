@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score-section">
+            <div class="sub1">
+                <h2>TEAM A</h2>
+                <p id="score1">0</p>
+                <div class="button">
+                    <button type="button" id="button-score1" class="button-add">+1</button>
+                </div>
+            </div>
+            <div class="sub1">
+                <h2>TEAM B</h2>
+                <p id="score2">0</p>
+                <div class="button">
+                    <button type="button" id="button-score2" class="button-add">+1</button>
+                </div>
+            </div>
+        </div>
+        <div class="select-section">
+            <div>
+                <select id="select">
+                    <option value="0" selected>Input Maxpoint</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttonrst-section">
+            <div>
+                <button id="button-rst">Reset</button>
+            </div>
+        </div>
+        <div class="result-section">
+            <div id="result">
+                <h1 id="result"></h1>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

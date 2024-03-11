@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Orbitron;
+}
+
+.container {
+    height: 100vh;
+    background-color: #1F2236;
+}
+
+.score-section {
+    padding: 80px 15px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.sub1 {
+    /* border: 1px solid white; */
+    color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: none;
+    width: 250px;
+    height: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.button {
+    margin-top: -30px;
+}
+
+.button-add {
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border: 3px solid #9aabd8; 
+    border-radius: 8px;
+    background-color: transparent;
+    color: #9aabd8;
+}
+
+/* .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: deepskyblue;
+} */
+
+.button-add:hover, 
+.button-add:active {
+    color: white;
+    border-color: #f94f6d;
+    background-color: #f94f6d;
+}
+
+/* #f94f6d */
+
+
+.select-section {
+    /* border: 1px solid black; */
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-section select {
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.buttonrst-section {
+    /* border: 1px solid black; */
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonrst-section button {
+    width: 350px;
+    height: 35px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-section {
+    /* border: 1px solid white; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+
+.win {
+    color: green;
+}
